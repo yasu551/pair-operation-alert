@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      body {
+        width: 300px;
+      }
+      .input-form {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+
+        input {
+          flex-grow: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <p>ペアプロURL</p>
+    <div class="input-form">
+      <label name="inputUrl">URL</label>
+      <input type="text" id="inputUrl">
+    </div>
+    <button id="saveUrl">保存</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
